@@ -1,0 +1,497 @@
+/* Header */
+.page-header {
+    padding-top: 130px;
+    padding-bottom: 0;
+}
+
+.bg-top {
+    background: url(../../../images/home/header-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-container {
+    padding: 0 4px;
+}
+
+.header-title {
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--black);
+    margin-bottom: 16px;
+}
+/* End Header */
+
+/* Keunggulan Produk */
+#keunggulanProduk {
+    margin-top: 64px;
+}
+
+.kepro-container {
+    padding: 0 8px;
+}
+
+.kepro-item-container {
+    border-radius: 8px;
+    padding: 32px 8px;
+    height: 100%;
+    transition: var(--transition);
+}
+
+.kepro-item-container .kepro-item-number {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 16px;
+    transition: var(--transition);
+}
+
+.kepro-item-container .kepro-item-title {
+    color: var(--black);
+    margin-bottom: 16px;
+    transition: var(--transition);
+}
+
+.kepro-item-container .kepro-item-desc {
+    color: var(--grey);
+    margin-bottom: 0;
+    transition: var(--transition);
+}
+
+.kepro-item-container.red {
+    border: 3px solid var(--ps-red);
+}
+
+.kepro-item-container.red .kepro-item-number {
+    background-color: var(--ps-red);
+}
+
+.kepro-item-container.red:hover {
+    background: var(--ps-red);
+    box-shadow: 0px 4px 4px rgba(222, 0, 41, 0.25);
+}
+
+.kepro-item-container.red:hover .kepro-item-number {
+    background: var(--white);
+    color: var(--ps-red);
+}
+
+.kepro-item-container.red:hover .kepro-item-title {
+    color: var(--white);
+}
+
+.kepro-item-container.red:hover .kepro-item-desc {
+    color: var(--white);
+}
+
+.kepro-item-container.blue {
+    border: 3px solid var(--ps-blue);
+}
+
+.kepro-item-container.blue .kepro-item-number {
+    background-color: var(--ps-blue);
+}
+
+.kepro-item-container.blue:hover {
+    background: var(--ps-blue);
+    box-shadow: 0px 4px 4px rgba(50, 109, 179, 0.25);
+}
+
+.kepro-item-container.blue:hover .kepro-item-number {
+    background: var(--white);
+    color: var(--ps-blue);
+}
+
+.kepro-item-container.blue:hover .kepro-item-title {
+    color: var(--white);
+}
+
+.kepro-item-container.blue:hover .kepro-item-desc {
+    color: var(--white);
+}
+
+.kepro-item-container.green {
+    border: 3px solid var(--ps-green);
+}
+
+.kepro-item-container.green .kepro-item-number {
+    background-color: var(--ps-green);
+}
+
+.kepro-item-container.green:hover {
+    background: var(--ps-green);
+    box-shadow: 0px 4px 4px rgba(0, 170, 158, 0.25);
+}
+
+.kepro-item-container.green:hover .kepro-item-number {
+    background: var(--white);
+    color: var(--ps-green);
+}
+
+.kepro-item-container.green:hover .kepro-item-title {
+    color: var(--white);
+}
+
+.kepro-item-container.green:hover .kepro-item-desc {
+    color: var(--white);
+}
+
+.kepro-item-container.yellow {
+    border: 3px solid var(--ps-yellow);
+}
+
+.kepro-item-container.yellow .kepro-item-number {
+    background-color: var(--ps-yellow);
+}
+
+.kepro-item-container.yellow:hover {
+    background: var(--ps-yellow);
+    box-shadow: 0px 4px 4px rgba(243, 194, 2, 0.25);
+}
+
+.kepro-item-container.yellow:hover .kepro-item-number {
+    background: var(--white);
+    color: var(--ps-yellow);
+}
+
+.kepro-item-container.yellow:hover .kepro-item-title {
+    color: var(--white);
+}
+
+.kepro-item-container.yellow:hover .kepro-item-desc {
+    color: var(--white);
+}
+/* End Keunggulan Produk */
+
+/* Keunggulan Perusahaan */
+#keunggulanPerusahaan {
+    margin-top: 64px;
+}
+
+.keper-container {
+    padding: 0 12px;
+}
+
+.keper-img {
+    width: 100%;
+    height: 533px;
+    object-fit: contain;
+}
+/* End Keunggulan Perusahaan */
+
+/* Gambar Proses */
+#gambarProses {
+    margin-top: 64px;
+}
+
+.gapro-container {
+    padding: 0 16px;
+}
+
+.gapro-carousel .slick-slide {
+    height: 340px;
+    display: flex !important;
+    align-items: flex-end;
+}
+
+.gapro-img {
+    width: 658px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+    object-fit: cover;
+    transition: all 500ms ease;
+}
+
+.gapro-carousel .slick-slide.slick-center .gapro-img {
+    height: 340px;
+}
+
+.gapro-button-container {
+    width: 705px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.header-carousel-prev,
+.header-carousel-next {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    opacity: .25;
+}
+
+.header-carousel-prev:hover,
+.header-carousel-next:hover {
+    opacity: 1;
+}
+/* End Gambar Proses */
+
+/* Tentang Kami */
+.teka-container {
+    padding: 0 12px;
+}
+
+#tentangKami {
+    margin-top: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: url(../../../images/home/teka-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* End Tentang Kami */
+
+/* Kenapa Harus Beli Kepada Kami */
+#kenapaHarusBeliKepadaKami {
+    margin-top: 64px;
+}
+
+.keha-container {
+    padding: 0 8px;
+}
+
+.keha-icon-container {
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 32px;
+    top: -24px;
+}
+
+.keha-card-container {
+    padding: 32px;
+    border: 1px solid var(--grey);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 100%;
+}
+
+.keha-items {
+    margin-top: 58px;
+}
+
+.keha-icon-container.red {
+    background-color: var(--ps-red);
+}
+
+.keha-icon-container.blue {
+    background-color: var(--ps-blue);
+}
+
+.keha-icon-container.green {
+    background-color: var(--ps-green);
+}
+
+.keha-icon-container.yellow {
+    background-color: var(--ps-yellow);
+}
+/* End Kenapa Harus Beli Kepada Kami */
+
+/* Testimoni */
+#testimoni {
+    margin-top: 64px;
+}
+
+.testimoni-container {
+    padding: 0 8px;
+}
+
+.testimoni-divider {
+    margin: 16px 0;
+    border-color: var(--primary);
+}
+
+.testimoni-profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary);
+}
+
+.testimoni-carousel-prev,
+.testimoni-carousel-next {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.testimoni-vector {
+    position: absolute;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.testimoni-vector.left {
+    left: 0;
+}
+
+.testimoni-vector.right {
+    right: 0;
+}
+/* End Testimoni */
+
+
+/* Daftar Produk */
+#daftarProduk {
+    margin-top: 64px;
+}
+
+.dapro-container {
+    padding: 0 4px;
+}
+
+.dapro-card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.dapro-card .card-body {
+    padding: 32px 8px;
+}
+
+.dapro-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dapro-card:hover {
+    transform: translateY(-12px);
+}
+/* End Daftar Produk */
+
+
+@media (max-width: 767.98px) {
+    /* Header */
+    .page-header {
+        padding-top: 102px;
+        padding-bottom: 48px;
+    }
+
+    .bg-top {
+        background-position: right;
+        height: auto;
+    }
+
+    .header-title {
+        color: var(--white);
+        font-size: 30px;
+    }
+
+    .page-header .body-1 {
+        color: var(--white);
+    }
+
+    .header-img {
+        width: 100%;
+        height: 280px;
+        object-fit: contain;
+    }
+    /* End Header */
+
+
+    /* Keunggulan Perusahaan */
+    .keper-img {
+        height: 280px;
+    }
+    /* End Keunggulan Perusahaan */
+
+    /* Gambar proses */
+    .gapro-img {
+        width: 60vw;
+        height: 200px !important;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .gapro-carousel .slick-slide {
+        height: auto;
+    }
+
+    .gapro-button-container {
+        width: 100%;
+    }
+    /* End Gambar proses */
+
+    /* Testimoni */
+    .testimoni-vector {
+        width: auto;
+        height: 25vw;
+    }
+    /* End Testimoni */
+
+}
+
+@media (min-width: 768px) and (max-width: 997.98px) {
+    /* Header */
+    .bg-top {
+        background: white;
+        height: auto;
+    }
+
+    .page-header {
+        padding-top: 100px;
+    }
+    /* End Header */
+
+    /* Keunggulan PErusahaan */
+    .keper-img {
+        height: 300px;
+    }
+    /* End Keunggulan PErusahaan */
+
+    /* Gambar proses */
+    .gapro-img {
+        width: 60vw;
+        height: 200px !important;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .gapro-carousel .slick-slide {
+        height: auto;
+    }
+
+    .gapro-button-container {
+        width: 100%;
+    }
+    /* End Gambar proses */
+}
